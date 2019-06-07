@@ -17,7 +17,7 @@ componentDidMount = _ => {
 }
 
   // TODO: create a componentWillUnmount() which will clear the interval
-componentWillUnmount = _ => {
+componentWillUnmount() {
   this.cleanUpInterval()
 }
 
